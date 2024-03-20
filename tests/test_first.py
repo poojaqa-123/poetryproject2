@@ -25,10 +25,10 @@ def test_three():
 
 def test_four():
     logger.info(f"\Test 4...")
-    assert 1==2
+    assert 4==1
     print(f"\Test 4 ====")
 
 def test_five():
     logger.info(f"\Test 5...")
-    assert 1==3
+    assert 5==1
     print(f"\Test 5 ====")
