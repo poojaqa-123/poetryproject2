@@ -16,6 +16,7 @@ jobs:
           pip install poetry
           poetry config virtualenvs.in-project true
           poetry install
+          poetry lock --no-update
         working-directory: ${{ inputs.working-directory }}
       - name: Prepare Allure history
         run: |
