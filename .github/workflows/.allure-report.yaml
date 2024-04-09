@@ -18,6 +18,7 @@ jobs:
           poetry config virtualenvs.in-project true
           rm poetry.lock
           poetry lock
+          poetry add pytest
           poetry install
           poetry lock --no-update
         working-directory: ${{ inputs.working-directory }}
