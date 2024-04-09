@@ -14,8 +14,9 @@ def test_breeds():
     print(f"\npath : {response.json()['path']}")
 
     assert response.status_code == 200
-    assert response.json()['current_page'] == 1
-    assert response.json()['path'] == "https://catfact.ninja/breeds"
+    assert response.json()["current_page"] == 1
+    assert response.json()["path"] == "https://catfact.ninja/breeds"
+
 
 def test_fact():
     response = requests.get("https://catfact.ninja/fact")
@@ -36,4 +37,5 @@ def test_fact_list():
     assert response.json()["total"] == 332
 
 
-
+def test_check():
+    print(f"-------- check -------------- ")
