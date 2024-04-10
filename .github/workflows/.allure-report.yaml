@@ -24,7 +24,7 @@ jobs:
         working-directory: ${{ inputs.working-directory }}
 
       - name: Run tests with pytest
-        run: python3 -m pytest -v -s --alluredir=allure-results
+        run: poetry run pytest
 
       - name: Get Allure history
         uses: actions/checkout@v3
