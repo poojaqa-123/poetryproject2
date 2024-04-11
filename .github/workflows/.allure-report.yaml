@@ -1,6 +1,7 @@
 name: generate-allure-report
 on:
-  - push
+  push:
+    branches: [ main ]
 
 jobs:
   build:
