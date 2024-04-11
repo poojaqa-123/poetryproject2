@@ -1,7 +1,6 @@
-name: allure-report
+name: generate-allure-report
 on:
   - push:
-
 jobs:
   build:
     runs-on: ubuntu-latest
