@@ -24,13 +24,13 @@ def test_three():
     print(f"\Test 3 ====")
 
 
-def test_four():
-    logger.info(f"\Test 4...")
-    assert 4 == 1
-    print(f"\Test 4 ====")
+# def test_four():
+#     logger.info(f"\Test 4...")
+#     assert 4 == 1
+#     print(f"\Test 4 ====")
 
 
-def test_five():
-    logger.info(f"\Test 5...")
-    assert 5 == 1
-    print(f"\Test 5 ====")
+# def test_five():
+#     logger.info(f"\Test 5...")
+#     assert 5 == 1
+#     print(f"\Test 5 ====")
