@@ -39,3 +39,7 @@ def test_fact_list():
 
 def test_check():
     print(f"-------- check -------------- ")
+
+
+def test_check2():
+    print(f"-------- check 2 -------------- ")
