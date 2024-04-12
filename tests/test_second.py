@@ -43,3 +43,7 @@ def test_check():
 
 def test_check2():
     print(f"-------- check 2 -------------- ")
+
+
+def test_check3():
+    print(f"-------- check 3 -------------- ")
